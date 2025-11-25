@@ -1,0 +1,50 @@
+name: qdna_id
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      # ==== Qiskit Core & Runtime ====
+      - qiskit==2.2.1
+      - qiskit-aer==0.17.2
+      - qiskit-ibm-runtime==0.42.0
+      
+      # ==== IBM Cloud SDKs ====
+      - ibm-cloud-sdk-core==3.24.2
+      - ibm-platform-services==0.69.0
+
+      # ==== Math / Science Stack ====
+      - numpy==2.3.3
+      - scipy==1.16.2
+      - pandas==2.3.3
+      - matplotlib==3.10.7
+
+      # ==== Machine Learning / Analysis Helpers ====
+      - tenacity==9.1.2
+      - protobuf==6.32.1
+
+      # ==== Security & Signing ====
+      - cryptography==46.0.2
+
+      # ==== Web / Visualization ====
+      - streamlit==1.50.0
+
+      # ==== Utility / Compatibility ====
+      - requests==2.32.3
+      - typing-extensions==4.15.0
+      - pydantic==2.12.0
+      - pydantic-core==2.41.1
+      - python-dateutil==2.9.0.post0
+      - pytz==2025.2
+
+      
+      # ==== Machine Learning ====
+      - scikit-learn==1.5.2
+# ---- Metadata ----
+# Author: Osamah N. Neamah
+# Project: QDNA-ID™ 
+# Generated: 2025-10-12
+# Description: Verified conda environment for IBM Quantum Runtime + feature extraction
+
