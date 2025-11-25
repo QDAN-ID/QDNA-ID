@@ -2,8 +2,7 @@
 """
 Project Title: QDNA-ID: Quantum Device Native Authentication
 Developed by: Osamah N. Neamah
-Supervisor: Prof. Dr. Raif Bayir
-Karabuk University — Quantum Provenance Initiative
+
 
 Cryptographic helpers:
 - HMAC-SHA256 (symmetric)
@@ -184,3 +183,4 @@ def load_or_create_rsa_from_env() -> Tuple[rsa.RSAPrivateKey, rsa.RSAPublicKey, 
         "pubkey_fingerprint_sha256": public_key_fingerprint_sha256(pub),
     }
     return priv, pub, meta
+
