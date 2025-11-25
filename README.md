@@ -5,7 +5,7 @@
 > A quantum provenance dashboard that links physical device behavior  
 > to cryptographically verifiable, signed fingerprints.  
 > **A complete trust chain connecting physical quantum behavior to digital verification.**
-
+> **The code included here is a simplified V0 example only and does not represent the work exactly the same.**
 ---
 
 ## Citation
