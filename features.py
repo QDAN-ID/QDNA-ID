@@ -2,7 +2,6 @@
 """
 Project Title: QDNA-ID: Quantum Device Native Authentication
 Developed by: Osamah N. Neamah
-Karabuk University — Quantum Provenance Initiative
 
 Feature extraction:
 - Shannon entropy (per-circuit)
@@ -80,3 +79,4 @@ def feature_vector_from_session(results_list: List[Dict[str,int]], circuit_types
         "chsh_S": None if math.isnan(chsh_S) else float(chsh_S),
         "chsh_violation": chsh_violation
     }
+
