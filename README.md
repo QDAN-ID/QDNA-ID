@@ -5,14 +5,12 @@
 > A quantum provenance dashboard that links physical device behavior  
 > to cryptographically verifiable, signed fingerprints.  
 > **A complete trust chain connecting physical quantum behavior to digital verification.**
-
+> **The code shown here is a simplified V0 example only and does not represent the exact workings. The dataset shown is the same data used for the Proof-of-Concept tests.**
 ---
 
 ## Citation
 
 If you use QDNA-ID in your research, please cite:
-**The code shown here is a simplified V0 example only and does not represent the exact workings. The dataset shown is the same data used for the Proof-of-Concept tests.**
-
 **QDNA-ID: Quantum Device Native Authentication**, http://arxiv.org/abs/2511.17692.
 
 ----
