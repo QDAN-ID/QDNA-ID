@@ -55,6 +55,11 @@ Copy code
 | Environment | Python ≥ 3.10 | Recommended for full reproducibility |
 
 ---
+## Citation
+
+If you use QDNA-ID in your research, please cite:
+
+**QDNA-ID: Quantum Device Native Authentication**, http://arxiv.org/abs/2511.17692.
 
 ## ⚙️ Installation
 
