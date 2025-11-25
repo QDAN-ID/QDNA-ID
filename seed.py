@@ -2,7 +2,7 @@
 """
 Project Title: QDNA-ID: Quantum Device Native Authentication
 Developed by: Osamah N. Neamah
-Karabuk University — Quantum Provenance Initiative
+
 
 Seed generation and deterministic replay helper.
 """
@@ -43,3 +43,4 @@ def load_all_seeds() -> List[str]:
             return [x["seed"] for x in items]
         except Exception:
             return []
+
