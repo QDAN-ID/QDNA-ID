@@ -8,6 +8,13 @@
 
 ---
 
+## Citation
+
+If you use QDNA-ID in your research, please cite:
+
+**QDNA-ID: Quantum Device Native Authentication**, http://arxiv.org/abs/2511.17692.
+
+----
 ## 🧠 Project Overview
 
 **QDNA-ID** introduces a *quantum provenance* framework that couples quantum hardware behavior with  
@@ -55,11 +62,6 @@ Copy code
 | Environment | Python ≥ 3.10 | Recommended for full reproducibility |
 
 ---
-## Citation
-
-If you use QDNA-ID in your research, please cite:
-
-**QDNA-ID: Quantum Device Native Authentication**, http://arxiv.org/abs/2511.17692.
 
 ## ⚙️ Installation
 
